@@ -1,0 +1,268 @@
+            /* Beginning of Body Styles */
+            /* ***************************************************************************************************** */
+            
+            body {
+                background-color: #101010;
+                color: #999;
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 22px;
+                font-weight: 600;
+            }
+            /* Beginning of Side Bar Styles */
+            /* ***************************************************************************************************** */
+            
+            #sidebar-wrapper {
+                height: 100%;
+                width: 300px;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #000;
+                overflow-x: hidden;
+                /* padding-top: 200px; */
+                margin-left: -300px;
+                left: 300px;
+                overflow-y: auto;
+                transition: all 0.4s ease 0s;
+            }
+            
+            #sidebar-wrapper-a a {
+                padding: 6px 8px 20px 56px;
+                text-decoration: none;
+                font-size: 16px;
+                color: #818181;
+                display: block;
+            }
+            
+            #sidebar-wrapper a:hover {
+                color: #f1f1f1;
+            }
+            /* Beginning of Card Styles */
+            /* ***************************************************************************************************** */
+            
+            img {
+                width: 100%;
+            }
+            
+            .card {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 1rem;
+                background: #101010;
+                margin-bottom: 1rem;
+                border: none;
+            }
+            
+            .card img {
+                height: auto;
+            }
+            
+            @media(max-width:600px) {
+                .card {
+                    display: flex;
+                }
+            }
+            
+            @media(max-width:991px) {
+                .card {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+            /* Scroll Bar Styles */
+            /* ***************************************************************************************************** */
+            
+             ::-webkit-scrollbar {
+                width: 5px;
+            }
+            
+             ::-webkit-scrollbar-track {
+                background: #000;
+            }
+            /* Handle */
+            
+             ::-webkit-scrollbar-thumb {
+                background: grey;
+            }
+            /* Beginning of Wrapper Styles */
+            /* ***************************************************************************************************** */
+            
+            #wrapper {
+                padding-left: 300px;
+                transition: all 0.4s ease 0s;
+            }
+            
+            #page-content-wrapper {
+                width: 100%;
+                border: none;
+                padding: 0;
+                margin: 0;
+            }
+            
+            #header-image {
+                background-image: url('/images/photography1.jpg');
+                width: 100%;
+                border: none;
+                padding: 0;
+                margin: 0;
+                background-position: bottom center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 100vh;
+                position: relative;
+            }
+            
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            #header {
+                overflow: hidden;
+            }
+            
+            #header-image {
+                border: none;
+                height: 100vh;
+                transition: 1s;
+                background-image: url('/images/paulphotography2.jpg');
+                width: 100%;
+                background-position: bottom center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .sidebar-nav {
+                position: absolute;
+                top: 0;
+                width: 250px;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            @media (max-width:767px) {
+                #wrapper {
+                    padding-left: 0;
+                }
+                #sidebar-wrapper {
+                    left: 0;
+                }
+                #wrapper.active {
+                    position: relative;
+                    left: 250px;
+                }
+                #wrapper.active #sidebar-wrapper {
+                    left: 250px;
+                    width: 250px;
+                    transition: all 0.4s ease 0s;
+                }
+            }
+            
+            @media (max-width:600px) {
+                #introText {
+                    padding-left: 32px;
+                    padding-right: 32px;
+                    margin-top: 130px;
+                    margin-bottom: 140px;
+                    text-align: center;
+                }
+            }
+            
+            @media (min-width:600px) {
+                #introText {
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    margin-top: 170px;
+                    margin-bottom: 180px;
+                    text-align: center;
+                }
+            }
+            
+            @media (min-width:768px) {
+                #introText {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    margin-top: 170px;
+                    margin-bottom: 180px;
+                    text-align: center;
+                }
+            }
+            
+            @media (min-width:992px) {
+                #introText {
+                    padding-left: 170px;
+                    padding-right: 170px;
+                    margin-top: 170px;
+                    margin-bottom: 180px;
+                    ;
+                    text-align: center;
+                }
+            }
+            
+            @media (min-width:1200px) {
+                #introText {
+                    padding-left: 240px;
+                    padding-right: 240px;
+                    margin-top: 170px;
+                    margin-bottom: 180px;
+                    text-align: center;
+                }
+            }
+            /* Overlay styles */
+            
+            .overlay {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                top: 0;
+                left: 0;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            
+            .overlay h1 {
+                font-weight: 700;
+                /* line-height: 1.3em; */
+                /* font-size: 65px; */
+                /* letter-spacing: 0px; */
+                margin: 0 0 5px;
+            }
+            /* vhjbbvcbghjjgfdvfghjgcxvghjgcvghjgfcvg */
+            
+            footer {
+                padding-top: 140px;
+                text-align: center;
+            }
+            
+            .fa {
+                /* padding: 6px 8px 20px 56px; */
+                text-decoration: none;
+                font-size: 16px;
+                color: #818181;
+                display: block;
+            }
+            
+            .footer-social-icons a {
+                text-decoration: none;
+                font-size: 16px;
+            }
+            
+            #big-screen {
+                padding-top: 1px;
+                padding-bottom: 15x;
+                text-align: center;
+            }
+            
+            #big-screen a {
+                text-decoration: none;
+                font-size: 16px;
+                color: #818181;
+            }
+            
+            #big-screen a:hover {
+                color: #f1f1f1;
+            }
