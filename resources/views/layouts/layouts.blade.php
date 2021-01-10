@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
- <title>Photography Company Name</title>
+ <title>Paul Photography</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     {{-- Google Fonts --}}
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
     <div id="wrapper">
         <div id="sidebar-wrapper">
 
-            <p style="padding-top: 75px; padding-bottom:40px; padding-left:55px;">Logo Here!</p>
+            <p style="padding-top: 75px; padding-bottom:40px; padding-left:55px;">Paul Photography</p>
             <div id="sidebar-wrapper-a">
 
                 <a href="{{ route('home') }}" style="color: #f1f1f1">Home</a>
@@ -40,11 +40,11 @@
 <div>
                 <footer>
                     <div class="footer-social-icons">
-                        <a href="https://www.facebook.com/alphygacheru1/" target="blank" class="fa fa-facebook"></a>
-                        <a href="https://www.instagram.com/alphygacheru/" class="fa fa-instagram" target="blank"></a>
-                        <a href="https://twitter.com/Alphygacheru" class="fa fa-twitter" target="blank"></a>
+                        <a href="https://www.facebook.com/paulsnaps" target="blank" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/paul.eye" class="fa fa-instagram" target="blank"></a>
+                        <a href="{{ route('home')}}" class="fa fa-twitter" target="blank"></a>
                     </div>
-                    <p style="font-size: 16px;"><small>© 2021 Photography Company Name</small></p>
+                    <p style="font-size: 16px;"><small>© 2021 Paul Photography</small></p>
                 </footer>
             </div>
 

@@ -9,7 +9,7 @@
                         <div id="header-image">
                             <div id="photo_section_one">
                                 <div class="overlay" data-aos="fade-down-right">
-                                    <h1>Company Logo/Name</h1>
+                                    <h1>Paul Photography</h1>
                                 </div>
                             </div>
                         </div>
@@ -101,11 +101,11 @@
         <div>
             <footer id="big-screen">
                 <div class="footer-social-icons">
-                    <a href="https://www.facebook.com/alphygacheru1/" target="blank" class="fa fa-facebook"></a>
-                    <a href="https://www.instagram.com/alphygacheru/" class="fa fa-instagram" target="blank"></a>
-                    <a href="https://twitter.com/Alphygacheru" class="fa fa-twitter" target="blank"></a>
+                    <a href="https://www.facebook.com/paulsnaps" target="blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/paul.eye" class="fa fa-instagram" target="blank"></a>
+                    <a href="{{ route('home')}}" class="fa fa-twitter" target="blank"></a>
                 </div>
-                <p style="font-size: 16px;"><small>© 2021 Photography Company Name</small></p>
+                <p style="font-size: 16px;"><small>© 2021 Paul Photography</small></p>
             </footer>
         </div>
     </div>
