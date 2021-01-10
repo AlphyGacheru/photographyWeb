@@ -9,7 +9,8 @@
                         <div id="header-image">
                             <div id="photo_section_one">
                                 <div class="overlay" data-aos="fade-down-right">
-                                    <h1>Paul Photography</h1>
+                                    <h1>PAUL PHOTOGRAPHY</h1>
+                                    <p>Lover of Beautiful and Good Stories.</p>
                                 </div>
                             </div>
                         </div>
@@ -17,7 +18,7 @@
 
                     <div data-aos="fade-up">
                         <p id="introText">
-                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae vitae, eaque in tempore architecto nisi blanditiis labore nihil optio voluptatum!
+                            I strive to create photographs that not only capture a moment, but also capture a feeling and essence.
                         </p>
 </div>
 
