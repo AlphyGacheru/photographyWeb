@@ -81,7 +81,37 @@
                             </div>
 
                             <div data-aos="fade-up">
-                                <img src="{{ asset('images/pic2.jpg')}}"
+                                <img src="{{ asset('images/pic12.jpg')}}"
+                                    alt="" />
+                            </div>
+
+                            <div data-aos="fade-up">
+                                <img src="{{ asset('images/pic13.jpg')}}"
+                                    alt="" />
+                            </div>
+
+                            <div data-aos="fade-up">
+                                <img src="{{ asset('images/pic14.jpg')}}"
+                                    alt="" />
+                            </div>
+
+                            <div data-aos="fade-up">
+                                <img src="{{ asset('images/pic15.jpg')}}"
+                                    alt="" />
+                            </div>
+
+                            <div data-aos="fade-up">
+                                <img src="{{ asset('images/pic16.jpg')}}"
+                                    alt="" />
+                            </div>
+
+                            <div data-aos="fade-up">
+                                <img src="{{ asset('images/pic17.jpg')}}"
+                                    alt="" />
+                            </div>
+
+                            <div data-aos="fade-up">
+                                <img src="{{ asset('images/pic18.jpg')}}"
                                     alt="" />
                             </div>
 
