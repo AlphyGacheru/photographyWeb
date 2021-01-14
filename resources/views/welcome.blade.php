@@ -8,7 +8,7 @@
                         <div id="header">
                             <div id="header-image">
                                 <div id="photo_section_one">
-                                    <div class="overlay" data-aos="fade-down-right">
+                                    <div class="overlay" data-aos="fade-right">
                                         <h1>PAUL PHOTOGRAPHY</h1>
                                         <p>Lover of Beautiful and Good Stories.</p>
                                     </div>
