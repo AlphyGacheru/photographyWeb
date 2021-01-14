@@ -1,12 +1,17 @@
             /* Beginning of Body Styles */
             /* ***************************************************************************************************** */
+            /* * {
+                margin: 0;
+                padding: 0;
+                box-sizing: content-box;
+            } */
             
             body {
                 background-color: #101010;
                 color: #999;
                 font-family: 'Josefin Sans', sans-serif;
                 font-size: 22px;
-                font-weight: 600;
+                font-weight: 400;
             }
             /* Beginning of Side Bar Styles */
             /* ***************************************************************************************************** */
@@ -69,6 +74,47 @@
                     grid-template-columns: repeat(2, 1fr);
                 }
             }
+            /* Card class on Services Page */
+            /* ***************************************************************************************************** */
+            
+            .cardServices {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 2rem;
+                margin-bottom: 2rem;
+            }
+            
+            .cardServices>div {
+                padding: 1rem;
+            }
+            
+            .cardServices h3 {
+                color: whitesmoke;
+            }
+            
+            .cardServices:nth-child(even) img {
+                order: 2;
+            }
+            
+            .btn {
+                display: inline-block;
+                background: #000;
+                color: #999;
+                padding: 0.8rem 1.8rem;
+                margin-top: 1rem;
+                cursor: pointer;
+                border-radius: 20%;
+            }
+            
+            .btn:hover {
+                opacity: 0.8;
+            }
+            
+            @media(max-width:768px) {
+                .cardServices {
+                    display: block;
+                }
+            }
             /* Scroll Bar Styles */
             /* ***************************************************************************************************** */
             
@@ -89,6 +135,7 @@
             
             #wrapper {
                 padding-left: 300px;
+                /* padding-right: 50px; */
                 transition: all 0.4s ease 0s;
             }
             
@@ -111,11 +158,11 @@
                 height: 100vh;
                 position: relative;
             }
-            
-            * {
+            /* * {
                 padding: 0;
                 margin: 0;
             }
+             */
             
             #header {
                 overflow: hidden;
@@ -195,8 +242,13 @@
                     padding-right: 170px;
                     margin-top: 170px;
                     margin-bottom: 180px;
-                    ;
                     text-align: center;
+                }
+            }
+            
+            @media (max-width:1200px) {
+                .cardServices>div {
+                    padding-top: 1rem;
                 }
             }
             
@@ -222,6 +274,8 @@
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
+                /* padding-top: 600px; */
+                background: rgba(0, 0, 0, 0.2);
             }
             
             .overlay h1 {

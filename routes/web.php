@@ -38,3 +38,27 @@ Route::get('/blog', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/images/family-images-photography', function () {
+    return view('familyImages');
+})->name('familyImages');
+
+Route::get('/images/wedding-images-photography', function () {
+    return view('weddingImages');
+})->name('weddingImages');
+
+Route::get('/images/travel-images-photography', function () {
+    return view('travelImages');
+})->name('travelImages');
+
+Route::get('/images/nature-images-photography', function () {
+    return view('natureImages');
+})->name('natureImages');
+
+Route::get('/images/fashion-images-photography', function () {
+    return view('fashionImages');
+})->name('fashionImages');
+
+Route::get('/images/portrait-images-photography', function () {
+    return view('portraitImages');
+})->name('portraitImages');

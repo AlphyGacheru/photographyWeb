@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
- <title>Paul Photography</title>
+    <title>Paul Photography</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     {{-- Google Fonts --}}
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     {{-- Css styleSheet --}}
-    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     {{-- AOS javascript library --}}
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     {{-- Font Awesome --}}
     <script src="https://use.fontawesome.com/a9d785a7a5.js"></script>
 </head>
@@ -37,12 +38,12 @@
                 <a href="{{ route('contact') }}">Contact</a>
             </div>
 
-<div>
+            <div>
                 <footer>
                     <div class="footer-social-icons">
                         <a href="https://www.facebook.com/paulsnaps" target="blank" class="fa fa-facebook"></a>
                         <a href="https://www.instagram.com/paul.eye" class="fa fa-instagram" target="blank"></a>
-                        <a href="{{ route('home')}}" class="fa fa-twitter" target="blank"></a>
+                        <a href="{{ route('home') }}" class="fa fa-twitter" target="blank"></a>
                     </div>
                     <p style="font-size: 16px;"><small>© 2021 Paul Photography</small></p>
                 </footer>
@@ -54,6 +55,16 @@
         </div>
         @yield('content')
 
+        <div>
+            <footer id="big-screen">
+                <div class="footer-social-icons">
+                    <a href="https://www.facebook.com/paulsnaps" target="blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/paul.eye" class="fa fa-instagram" target="blank"></a>
+                    <a href="{{ route('home') }}" class="fa fa-twitter" target="blank"></a>
+                </div>
+                <p style="font-size: 16px;"><small>© 2021 Paul Photography</small></p>
+            </footer>
+        </div>
 
 </body>
 
