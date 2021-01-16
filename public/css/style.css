@@ -447,7 +447,7 @@ footer {
     transition: 0.4s;
 }
 
-#btnBookk {
+#btnBook {
     background: #222;
     height: 25px;
     min-width: 150px;
@@ -467,7 +467,7 @@ footer {
     padding-bottom: 7px;
 }
 
-#btnBookk #circle {
+#btnBook #circle {
     width: 5px;
     height: 5px;
     background: transparent;
@@ -479,7 +479,7 @@ footer {
     transition: 500ms;
 }
 
-.noselectk {
+.noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -488,14 +488,15 @@ footer {
     user-select: none;
 }
 
-#btnBookk:hover {
+#btnBook:hover {
     background: transparent;
 }
 
-#btnBookk:hover #circle {
+#btnBook:hover #circle {
     height: 25px;
-    width: 224px;
+    width: auto;
     left: 0;
+    right: 0;
     border-radius: 0;
     border-bottom: 2px solid #eee;
 }

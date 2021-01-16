@@ -13,7 +13,9 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
                     enim laudantium, animi veniam libero eveniet culpa unde perferendi.
                 </p>
-                <a href="{{ route('familyImages') }}" class="btn">More Family Pictures...</a>
+                <a href="{{ route('familyImages') }}" style="text-decoration:none;"><div id="btnBook"><span class="noselect">More Family Photos</span>
+                  <div id="circle"></div>
+              </div></a>
             </div>
         </section>
 
@@ -27,7 +29,9 @@
                     illo fugit corporis, voluptatibus totam dolorum, maiores magnam
                     officia. Ab, delectus.
                 </p>
-                <a href="{{ route('weddingImages') }}" class="btn">More Wedding Pictures...</a>
+                <a href="{{ route('weddingImages') }}" style="text-decoration:none;"><div id="btnBook"><span class="noselect">More Wedding Photos</span>
+                  <div id="circle"></div>
+              </div></a>
             </div>
         </section>
 
@@ -41,7 +45,9 @@
                     illo fugit corporis, voluptatibus totam dolorum, maiores magnam
                     officia. Ab, delectus.
                 </p>
-                <a href="{{ route('travelImages') }}" class="btn">More Travel Pictures...</a>
+                <a href="{{ route('travelImages') }}" style="text-decoration:none;"><div id="btnBook"><span class="noselect">More Travel Photos</span>
+                  <div id="circle"></div>
+              </div></a>
             </div>
         </section>
 
@@ -55,7 +61,10 @@
                     illo fugit corporis, voluptatibus totam dolorum, maiores magnam
                     officia. Ab, delectus.
                 </p>
-                <a href="{{ route('natureImages') }}" class="btn">More Nature Pictures...</a>
+                <a href="{{ route('natureImages') }}" style="text-decoration:none;"><div id="btnBook"><span class="noselect">More Nature Photos</span>
+                  <div id="circle"></div>
+              </div></a>
+                
             </div>
         </section>
 
@@ -69,7 +78,9 @@
                     illo fugit corporis, voluptatibus totam dolorum, maiores magnam
                     officia. Ab, delectus.
                 </p>
-                <a href="{{ route('fashionImages') }}" class="btn">More Fashion Pictures...</a>
+                <a href="{{ route('fashionImages') }}" style="text-decoration:none;"><div id="btnBook"><span class="noselect">More Fashion Photos</span>
+                  <div id="circle"></div>
+              </div></a>
             </div>
         </section>
 
@@ -83,7 +94,10 @@
                     illo fugit corporis, voluptatibus totam dolorum, maiores magnam
                     officia. Ab, delectus.
                 </p>
-                <a href="{{ route('portraitImages') }}" class="btn">More Portrait Pictures...</a>
+                <a href="{{ route('portraitImages') }}" style="text-decoration:none;"><div id="btnBook"><span class="noselect">More Portrait Photos</span>
+                  <div id="circle"></div>
+              </div></a>
+                
             </div>
         </section>
 
