@@ -7,8 +7,8 @@
             {{-- <div class="aboutMePic">
                 <img src="{{ asset('images/aboutMe.jpg') }}" alt="" loading="lazy" style="width:80vh;"/>
             </div> --}}
-            <div class="aboutMeMobilePic">
-                <img src="{{ asset('images/aboutMeMobilePic.jpg') }}" alt="" loading="lazy" style="width:80vh; text-align:centre;" />
+            <div class="aboutMeMobilePic" style="background: black;">
+                <img src="{{ asset('images/aboutMeMobilePic.jpg') }}" alt="" loading="lazy" style="width:80vh;" />
             </div>
          <div class="container">
             <h3 style="margin-top: 20px;">Paul Ogola</h3>
@@ -18,8 +18,9 @@
                 velit placeatLorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur adipisci magnam quisquam optio sequi
                 molestiae dolorum. Reprehenderit eos aperiam, at, aut quod esse voluptatem aliquid vitae quidem impedit,
                 velit placeat.</p>
+            </div>
         </section>
-         </div>
+        
 
 
 

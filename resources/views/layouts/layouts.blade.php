@@ -13,12 +13,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     {{-- Css styleSheet --}}
-    <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     {{-- AOS javascript library --}}
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     {{-- Font Awesome --}}
     <script src="https://use.fontawesome.com/a9d785a7a5.js"></script>
+    @yield('headLinks')
 </head>
 
 <body>
