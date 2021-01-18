@@ -8,19 +8,7 @@
 
 </script>
 
- {{-- <script>
-        function initMap() {
-          const nation_media = { lat: -1.2831796, lng: 36.8202733 };
-          const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 15,
-            center: nation_media,
-          });
-          const marker = new google.maps.Marker({
-            position: nation_media,
-            map: map,
-          });
-        }
-      </script> --}}
+
 
       <script>
               function initMap() {
@@ -126,61 +114,27 @@ const map = new google.maps.Map(document.getElementById("map"), {
 <main class="container">
         <h1 style="text-align: center; padding-top: 15vh; padding-bottom:5vh;">Contact Me</h1>
 
-<!--The div element for the map -->
 
 <br>
 <br>
-{{-- <div class="shade">
-    <div class="blackboard">
-            <div class="form">
-                    <p>
-                            <label>Name: </label>
-                            <input type="text" />
-                    </p>
-                    <p>
-                            <label>Email: </label>
-                            <input type="text" />
-                    </p>
-                    <p>
-                            <label>Phone: </label>
-                            <input type="tel" />
-                    </p>
-                    <p>
-                            <label>Subject: </label>
-                            <input type="text" />
-                    </p>
-                    <p>
-                            <label>Message: </label>
-                            <textarea></textarea>
-                    </p>
-                    <p class="wipeout">
-                            <input type="submit" value="Send" />
-                    </p>
-            </div>
-    </div>
-</div> --}}
+
 <section class="contactFormRow">
  <div class="shade" style=" overflow:hidden; ">
     <div class="blackboard">
             <div class="form">
                     <p>
-                            {{-- <label>Name: </label> --}}
                             <input type="text" placeholder="Enter Your Name:" />
                     </p>
                     <p>
-                            {{-- <label>Email: </label> --}}
                             <input type="text" placeholder="Enter Your Email:"  />
                     </p>
                     <p>
-                            {{-- <label>Phone: </label> --}}
                             <input type="tel" placeholder="Enter Your Telephone No.:"  />
                     </p>
                     <p>
-                            {{-- <label>Subject: </label> --}}
                             <input type="text" placeholder="Enter Subject:" />
                     </p>
                     <p>
-                            {{-- <label>Message: </label> --}}
                             <textarea placeholder="Enter Message:" ></textarea>
                     </p>
                     <p class="wipeout">
@@ -204,15 +158,5 @@ const map = new google.maps.Map(document.getElementById("map"), {
 <div id="map"></div>
 </main>
 
-
-
-
-
-
-
-
-
-{{-- my Api key --}}
-{{-- AIzaSyB6o_CDuc8A1R_lpH5FMHYK_xoLpuoXwXY --}}
 
 @endsection
