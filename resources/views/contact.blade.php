@@ -123,7 +123,7 @@ const map = new google.maps.Map(document.getElementById("map"), {
     <div class="blackboard">
             <div class="form">
                     <p>
-                            <input type="text" placeholder="Enter Your Name:" />
+                            <input type="text" placeholder="Enter Your Name:" style="padding-top:4rem;"/>
                     </p>
                     <p>
                             <input type="text" placeholder="Enter Your Email:"  />
