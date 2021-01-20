@@ -390,6 +390,7 @@ footer {
 .footer-social-icons a {
     text-decoration: none;
     font-size: 16px;
+    padding-left: 0.3rem;
 }
 
 #big-screen {
@@ -607,21 +608,21 @@ footer {
     padding: 70px 20px 20px;
 }
 
-p {
+.form p {
     position: relative;
     margin-bottom: 1em;
 }
 
-label {
+.form label {
     vertical-align: middle;
     color: rgba(238, 238, 238, 0.7);
 }
 
-p:nth-of-type(5)>label {
+.form p:nth-of-type(5)>label {
     vertical-align: top;
 }
 
-input,
+.form input,
 textarea {
     vertical-align: middle;
     padding-left: 10px;
@@ -632,25 +633,26 @@ textarea {
     outline: none;
 }
 
-textarea {
+.form textarea {
     height: 120px;
     line-height: 1em;
     resize: none;
 }
 
-input[type="submit"] {
+.form input[type="submit"] {
     cursor: pointer;
     color: rgba(238, 238, 238, 0.7);
     line-height: 1em;
     padding: 0;
 }
 
-input[type="submit"]:focus {
+.form input[type="submit"]:focus {
     background: rgba(238, 238, 238, 0.2);
     color: rgba(238, 238, 238, 0.2);
 }
 
-::-moz-selection {
+
+/* ::-moz-selection {
     background: rgba(238, 238, 238, 0.2);
     color: rgba(238, 238, 238, 0.2);
     text-shadow: none;
@@ -660,7 +662,7 @@ input[type="submit"]:focus {
     background: rgba(238, 238, 238, 0.4);
     color: rgba(238, 238, 238, 0.3);
     text-shadow: none;
-}
+} */
 
 @media(min-width:992px) {
     .contactFormRow {
