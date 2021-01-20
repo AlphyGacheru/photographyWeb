@@ -116,7 +116,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init({
-            offset: 120,
+            offset: 400,
             duration: 3000,
         });
 

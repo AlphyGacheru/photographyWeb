@@ -3,7 +3,7 @@
     <h1 style="text-align: center; padding-top: 15vh; padding-bottom:5vh;">Family Photographs</h1>
 
     <main class="container">
-        <section class="cardBlog" data-aos="fade-up">
+        <section class="cardBlog">
             <div class="cardBlogContent">
                 <img src="{{ asset('images/familyImages/family1.jpg') }}" alt="" />
             </div>
@@ -62,7 +62,7 @@
         AOS.init({
             offset: 400, // offset (in px) from the original trigger point
             delay: 0, // values from 0 to 3000, with step 50ms
-            duration: 2000 // values from 0 to 3000, with step 50ms
+            duration: 3000 // values from 0 to 3000, with step 50ms
         });
 
         document.querySelectorAll('img')
