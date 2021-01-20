@@ -611,6 +611,7 @@ footer {
 .form p {
     position: relative;
     margin-bottom: 1em;
+    padding-top: 1em;
 }
 
 .form label {
