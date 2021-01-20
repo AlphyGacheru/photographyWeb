@@ -113,9 +113,9 @@
                 <p>1 Photo Shoot</p>
                 <p>1 Hour</p>
 
-                <div id="btnBook"><span class="noselect">Book Now</span>
+                <a href="{{ route('contact')}}" style="text-decoration: none;"><div id="btnBook"><span class="noselect">Book Now</span>
                     <div id="circle"></div>
-                </div>
+                </div></a>
             </div>
 
             <div class="cardPricingContent" >
@@ -131,9 +131,9 @@
                 <p>2 Photo Shoot</p>
                 <p>2 Hour</p>
 
-                <div id="btnBook"><span class="noselect">Book Now</span>
+                <a href="{{ route('contact')}}" style="text-decoration: none;"><div id="btnBook"><span class="noselect">Book Now</span>
                     <div id="circle"></div>
-                </div>
+                </div></a>
             </div>
 
             <div class="cardPricingContent" >
@@ -150,9 +150,9 @@
                 <p>5 Photo Shoot</p>
                 <p>4 Hour</p>
 
-                <div id="btnBook"><span class="noselect">Book Now</span>
+                <a href="{{ route('contact')}}" style="text-decoration: none;"><div id="btnBook"><span class="noselect">Book Now</span>
                     <div id="circle"></div>
-                </div>
+                </div></a>
             </div>
         </section>
 
