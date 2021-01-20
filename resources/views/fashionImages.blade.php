@@ -1,6 +1,6 @@
 @extends('layouts/layouts')
 @section('content')
-    <h1 style="text-align: center; padding-top: 15vh; padding-bottom:5vh;">FASHION PHOTOGRAPHS</h1>
+    <h1 style="text-align: center; padding-top: 15vh; padding-bottom:5vh;">Fashion Photographs</h1>
 
     <main class="container">
         <section class="cardBlog">
