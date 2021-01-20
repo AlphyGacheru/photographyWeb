@@ -630,8 +630,12 @@ textarea {
     background: none;
     border: none;
     color: rgba(238, 238, 238, 0.8);
-    line-height: .9em;
+    line-height: .6em;
     outline: none;
+}
+
+.form input {
+    padding-top: 1rem;
 }
 
 .form textarea {
