@@ -201,7 +201,7 @@ img {
 }
 
 #header-image {
-    background-image: url('/images/photography1.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/photography1.jpg');
     width: 100%;
     border: none;
     padding: 0;
@@ -222,7 +222,7 @@ img {
     border: none;
     height: 100vh;
     transition: 1s;
-    background-image: url('/images/paulphotography2.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/paulphotography2.jpg');
     width: 100%;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -347,6 +347,7 @@ img {
 /* Overlay styles */
 
 .overlay {
+    line-height: 0.5;
     position: absolute;
     height: 100%;
     padding-top: 76vh;
@@ -362,11 +363,11 @@ img {
 }
 
 @media(max-width:768px) {
-    .overlay {
+    /* .overlay {
         padding-left: 3rem;
         align-items: flex-start;
         justify-content: flex-start;
-    }
+    } */
 }
 
 .overlay h1 {

@@ -130,19 +130,19 @@
     </script>
 
     <script>
-        let anime = document.querySelector('#header-image');
-        let images = [
-            '/images/paulphotography1.jpg',
-            '/images/paulphotography2.jpg'
-        ];
-        let index = 0;
-        setInterval(function() {
-            anime.style.backgroundImage = 'url(' + images[index] + ')';
-            index++;
-            if (index >= images.length) {
-                index = 0;
-            }
-        }, 5000);
+        // let anime = document.querySelector('#header-image');
+        // let images = [
+        //     '/images/paulphotography1.jpg',
+        //     '/images/paulphotography2.jpg'
+        // ];
+        // let index = 0;
+        // setInterval(function() {
+        //     anime.style.backgroundImage = linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 'url(' + images[index] + ')';
+        //     index++;
+        //     if (index >= images.length) {
+        //         index = 0;
+        //     }
+        // }, 5000);
 
     </script>
 @endsection
