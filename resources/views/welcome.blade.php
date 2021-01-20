@@ -26,77 +26,77 @@
                         <main class="container">
                             <section class="card">
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic1.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic1.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic2.jpg') }}" alt=""/>
+                                    <img src="{{ asset('images/pic2.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic3.jpg') }}" alt="" />
-                                </div>
-
-
-                                <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic4.jpg') }}" alt="" />
-                                </div>
-
-                                <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic5.jpg') }}" alt="" />
-                                </div>
-
-                                <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic6.jpg') }}" alt="" />
-                                </div>
-
-                                <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic7.jpg') }}" alt="" />
-                                </div>
-
-                                <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic8.jpg') }}" alt="" />
-                                </div>
-
-                                <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic9.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic3.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic10.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic4.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic11.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic5.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic12.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic6.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic13.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic7.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic14.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic8.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic15.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic9.jpg') }}" alt="" loading="lazy"  />
+                                </div>
+
+
+                                <div data-aos="fade-up">
+                                    <img src="{{ asset('images/pic10.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic16.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic11.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic17.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic12.jpg') }}" alt="" loading="lazy"  />
                                 </div>
 
                                 <div data-aos="fade-up">
-                                    <img src="{{ asset('images/pic18.jpg') }}" alt="" />
+                                    <img src="{{ asset('images/pic13.jpg') }}" alt="" loading="lazy"  />
+                                </div>
+
+                                <div data-aos="fade-up">
+                                    <img src="{{ asset('images/pic14.jpg') }}" alt="" loading="lazy"  />
+                                </div>
+
+                                <div data-aos="fade-up">
+                                    <img src="{{ asset('images/pic15.jpg') }}" alt="" loading="lazy"  />
+                                </div>
+
+                                <div data-aos="fade-up">
+                                    <img src="{{ asset('images/pic16.jpg') }}" alt=""  />
+                                </div>
+
+                                <div data-aos="fade-up">
+                                    <img src="{{ asset('images/pic17.jpg') }}" alt=""  />
+                                </div>
+
+                                <div data-aos="fade-up">
+                                    <img src="{{ asset('images/pic18.jpg') }}" alt=""  />
                                 </div>
 
 
@@ -120,6 +120,13 @@
             duration: 3000,
         });
 
+        document.querySelectorAll('img')
+            .forEach((img) =>
+                img.addEventListener('load', () =>
+                    AOS.refresh()
+                )
+            );
+
     </script>
 
     <script>
@@ -128,9 +135,7 @@
             '/images/paulphotography1.jpg',
             '/images/paulphotography2.jpg'
         ];
-
         let index = 0;
-
         setInterval(function() {
             anime.style.backgroundImage = 'url(' + images[index] + ')';
             index++;

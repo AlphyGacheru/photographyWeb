@@ -35,7 +35,7 @@
             </div>
         </section>
 
-        <section class="cardServices" data-aos="fade-right">
+        {{-- <section class="cardServices" data-aos="fade-right">
             <img src="{{ asset('images/pic1.jpg') }}" alt="" loading="lazy" />
             <div>
                 <h3>Travel Photography</h3>
@@ -49,7 +49,7 @@
                   <div id="circle"></div>
               </div></a>
             </div>
-        </section>
+        </section> --}}
 
         <section class="cardServices" data-aos="fade-right">
             <img src="{{ asset('images/natureServices.jpg') }}" alt="" loading="lazy" />
@@ -167,6 +167,8 @@
             delay: 0, // values from 0 to 3000, with step 50ms
             duration: 3000 // values from 0 to 3000, with step 50ms
         });
+
+        
 
     </script>
 @endsection

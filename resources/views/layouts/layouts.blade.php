@@ -34,7 +34,8 @@
 
         <div id="side-menu" class="side-nav">
             <span class="btn-close" onclick="closeSlideMenu()">&times;</span>
-            <p style="padding-top: 75px; padding-bottom:40px; padding-left:55px;">Paul Photography</p>
+            <p style="padding-top: 75px; padding-bottom:40px; padding-left:55px;"><a href="{{ route('home') }}" 
+                style="text-decoration: none; color: #818181;;">Paul Photography</a></p>
             <div id="sidebar-wrapper-a">
 
                 <a href="{{ route('home') }}" style="color: #f1f1f1">Home</a>
@@ -60,7 +61,8 @@
 
         <div id="sidebar-wrapper">
 
-            <p style="padding-top: 75px; padding-bottom:40px; padding-left:55px;">Paul Photography</p>
+            <p style="padding-top: 75px; padding-bottom:40px; padding-left:55px;"><a href="{{ route('home') }}" 
+                style="text-decoration: none; color: #818181;;">Paul Photography</a></p>
             <div id="sidebar-wrapper-a">
 
                 <a href="{{ route('home') }}" style="color: #f1f1f1">Home</a>
