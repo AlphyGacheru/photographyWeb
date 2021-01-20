@@ -146,11 +146,11 @@ const map = new google.maps.Map(document.getElementById("map"), {
 
 
 <div  class="phoneSection">
-    <span style="font-size: 19px;"><i class="fa fa-phone" aria-hidden="true" style="color: white; padding-right: 0.5rem;"></i> + 254 714 502 062</span>
+    <span style="font-size: 19px;"><i class="fa fa-phone" aria-hidden="true" style="color: #989898; padding-right: 0.5rem;"></i> + 254 714 502 062</span>
     <br>
-    <span style="font-size: 19px;"><i class="fa fa-envelope-o" aria-hidden="true" style="color: white; padding-right: 0.5rem;"></i> p.ogola02@gmail.com </span>
+    <span style="font-size: 19px;"><i class="fa fa-envelope-o" aria-hidden="true" style="color: #989898; padding-right: 0.5rem;"></i> p.ogola02@gmail.com </span>
 <br>
-    <span style="font-size: 19px;"><i class="fa fa-map-marker" aria-hidden="true" style="color: white; padding-right: 0.5rem;"></i>Nation Media, 3rd Floor, Moi avenue.</span>
+    <span style="font-size: 19px;"><i class="fa fa-map-marker" aria-hidden="true" style="color: #989898; padding-right: 0.5rem;"></i>Nation Media, 3rd Floor, Moi avenue.</span>
 </div>
 <br>
 
