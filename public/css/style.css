@@ -634,9 +634,10 @@ textarea {
     outline: none;
 }
 
-.form input {
+
+/* .form input {
     padding-top: 1rem;
-}
+} */
 
 .form textarea {
     height: 120px;
