@@ -7,7 +7,7 @@
             <div class="cardBlogContent">
                 <img src="{{ asset('images/familyImages/family1.jpg') }}" alt="" />
             </div>
-            <div class="cardBlogContent" data-aos="fade-up">
+            <div class="cardBlogContent" >
                 <img src="{{ asset('images/familyImages/family2.jpg') }}" alt="" />
             </div>
             <div class="cardBlogContent" data-aos="fade-up">
