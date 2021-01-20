@@ -4,7 +4,7 @@
 
     <main class="container">
         <section class="cardBlog">
-            <div class="cardBlogContent" data-aos="fade-up">
+            <div class="cardBlogContent">
                 <img src="{{ asset('images/pic1.jpg') }}" alt="" />
                 <p style="font-size: 16px; padding-top:0.4rem;">May 9, 2018 at 6:09 pm <span style="float:right;">Written By
                         Paul Ogola</span></p>
@@ -12,14 +12,14 @@
             </div>
 
             <div class="cardBlogContent" data-aos="fade-left">
-                <img src="{{ asset('images/pic2.jpg') }}" alt="" />
+                <img src="{{ asset('images/pic2.jpg') }}" alt=""  loading="lazy" />
                 <p style="font-size: 16px; padding-top:0.4rem;">May 9, 2018 at 6:09 pm <span style="float:right;">Written By
                     Paul Ogola</span></p>
             <h4 style="font-weight:bolder;"><a href="{{ route('eachBlog')}}">Benefits of Using Drones in Aerial Photography</a></h4>
             </div>
 
             <div class="cardBlogContent" data-aos="fade-up">
-                <img src="{{ asset('images/pic3.jpg') }}" alt="" />
+                <img src="{{ asset('images/pic3.jpg') }}" alt=""  loading="lazy" />
                 <p style="font-size: 16px; padding-top:0.4rem;">May 9, 2018 at 6:09 pm <span style="float:right;">Written By
                     Paul Ogola</span></p>
             <h4 style="font-weight:bolder;"><a href="{{ route('eachBlog')}}">Best Location Ideas for Your Next Photo Shoot</a></h4>
@@ -27,21 +27,21 @@
 
 
             <div class="cardBlogContent" data-aos="fade-left">
-                <img src="{{ asset('images/pic4.jpg') }}" alt="" />
+                <img src="{{ asset('images/pic4.jpg') }}" alt=""  loading="lazy" />
                 <p style="font-size: 16px; padding-top:0.4rem;">May 9, 2018 at 6:09 pm <span style="float:right;">Written By
                     Paul Ogola</span></p>
             <h4 style="font-weight:bolder;"><a href="{{ route('eachBlog')}}">8 Most Popular Photography Genres</a></h4>
             </div>
 
             <div class="cardBlogContent" data-aos="fade-up">
-                <img src="{{ asset('images/pic5.jpg') }}" alt="" />
+                <img src="{{ asset('images/pic5.jpg') }}" alt=""  loading="lazy" />
                 <p style="font-size: 16px; padding-top:0.4rem;">May 9, 2018 at 6:09 pm <span style="float:right;">Written By
                     Paul Ogola</span></p>
             <h4 style="font-weight:bolder;"><a href="{{ route('eachBlog')}}">8 Most Popular Photography Genres</a></h4>
             </div>
 
             <div class="cardBlogContent" data-aos="fade-left">
-                <img src="{{ asset('images/pic6.jpg') }}" alt="" />
+                <img src="{{ asset('images/pic6.jpg') }}" alt=""  loading="lazy" />
                 <p style="font-size: 16px; padding-top:0.4rem;">May 9, 2018 at 6:09 pm <span style="float:right;">Written By
                     Paul Ogola</span></p>
             <h4 style="font-weight:bolder;"><a href="{{ route('eachBlog')}}">8 Most Popular Photography Genres</a></h4>
