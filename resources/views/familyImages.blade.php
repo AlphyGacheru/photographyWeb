@@ -3,7 +3,7 @@
     <h1 style="text-align: center; padding-top: 15vh; padding-bottom:5vh;">Family Photographs</h1>
 
     <main class="container">
-        <section class="cardBlog">
+        <section class="cardBlog" data-aos="fade-up">
             <div class="cardBlogContent">
                 <img src="{{ asset('images/familyImages/family1.jpg') }}" alt="" />
             </div>
