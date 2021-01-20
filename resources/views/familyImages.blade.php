@@ -8,7 +8,7 @@
                 <img src="{{ asset('images/familyImages/family1.jpg') }}" alt="" />
             </div>
             <div class="cardBlogContent" data-aos="fade-up">
-                <img src="{{ asset('images/familyImages/family2.jpg') }}" alt="" />
+                <img src="{{ asset('images/familyImages/family2.jpg') }}" alt="" loading="lazy" />
             </div>
             <div class="cardBlogContent" data-aos="fade-up">
                 <img src="{{ asset('images/familyImages/family3.jpg') }}" alt="" loading="lazy" />
@@ -40,17 +40,8 @@
             <div class="cardBlogContent" data-aos="fade-up">
                 <img src="{{ asset('images/familyImages/family12.jpg') }}" alt="" loading="lazy" />
             </div>
-         
-
-
-
-
-
-        </section>
-
-
-
-    </main>
+         </section>
+        </main>
 
 
 
